@@ -39,7 +39,7 @@ services:
            - OPENVPN_ADMIN_PASSWORD=gagaZush
        privileged: true
        ports:
-           - "8181:8181/tcp"
+           - "443:443/tcp"
        volumes:
            - ./:/etc/openvpn
            - ./db:/opt/openvpn-ui/db
